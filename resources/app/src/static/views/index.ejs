@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= title %></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <% include estructure/head.ejs %>
+    </head>
+    <body>
+        <div id="particles-js"></div>        
+        <div class="container header_margin z-depth-1">
+            <% include estructure/section.ejs %>
+        </div>
+        <% include estructure/navbar.ejs %>
+        <% include estructure/footer.ejs %>
+
+        <script src="../javaScripts/jquery.min.js"></script>
+        <script>
+            try {
+                $ = jQuery = module.exports;
+            } catch(e) {}
+        </script>
+
+        <script type="text/javascript" src="../javaScripts/hammer.js"></script>
+        <script type="text/javascript" src="../javaScripts/materialize.js"></script>
+        <script type="text/javascript" src="../javaScripts/custom.js"></script>
+        <script type="text/javascript" src="../javaScripts/index.js"></script>
+        <script src="../javaScripts/particles.js"></script>
+        <script src="../javaScripts/app.js"></script>     
+    </body>
+</html>

@@ -1,0 +1,223 @@
+/* Padding elements */
+header,
+main,
+section,
+footer,
+.copyright,
+#particles-js {
+  padding-left: 90px;
+}
+
+@media only screen and (max-width: 0px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+/* Background */
+body {
+
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 17%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(17%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 17%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 17%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 17%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 17%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+  
+}
+
+/* Nav */
+.side-nav {  
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  width: 70px;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+#icon_navbar {
+  width: 35px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.centrado_porcentual {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -170%);
+  -webkit-transform: translate(-50%, -170%);
+}
+
+.side-nav li > a:hover {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Modals Nav*/
+.nosotros_margin {
+  margin-bottom: 3%;
+}
+
+#title_modals_btn {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.tipografia_modals {
+  font-family: "Dosis", sans-serif;
+}
+
+.imgs_modals {
+  width: 230px;
+  height: auto;
+}
+
+.ico_modals {
+  width: 20px;
+  height: auto;
+}
+
+/* Container */
+.header_margin {
+  padding: 15px 0px 15px 0px;
+  position: absolute;
+  left: 52%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.display_cal {
+  position: relative;
+  top: 15px;
+}
+
+::-webkit-input-placeholder {
+  color: #333;
+}
+::-moz-placeholder {
+  color: #333;
+}
+:-ms-input-placeholder {
+  color: #333;
+}
+::placeholder {
+  color: #333;
+}
+
+/* Resultado */
+.result_output {
+  font-size: 300px;
+  padding: 2%;
+  color: #333;
+}
+
+/* Content calculadora */
+.content_calc {
+  position: relative;
+  top: 10px;
+}
+
+a > .potencia {
+  font-size: 12px;
+  position: relative;
+  top: -9px;
+  left: -5px;
+  text-transform: lowercase;
+}
+.size_btn {
+  padding: 0px 20px 0px 20px;
+}
+.size_btn_large {
+  padding: 0px 25px 0px 25px;
+}
+
+.colors_fonts {
+  background-color: rgba(255, 255, 255, 0);
+  color: #333;
+}
+
+.erase_btn:hover,
+.erase_btn-large:hover {
+  background-color: #ea4335;
+  color: #fff;
+}
+
+.btn_basic_background:hover,
+.btn_basic_background-large:hover {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+/* Posicionamiento del contenido del btn */
+.position_btn {
+  position: relative;
+  right: 15%;
+}
+
+#cosh {
+  position: relative;
+  right: 27%;
+}
+
+#igual {
+  position: relative;
+  right: 40%;
+}
+
+/* Potencias */
+.potencia {
+  z-index: 999;
+  position: relative;
+  right: 32px;
+  top: -15px;
+}
+
+/* Footer */
+/* Footer adhesivo */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #333;
+}
+
+.copyright {
+  font-family: "Open Sans Condensed", sans-serif;
+  position: relative;
+  top: 12px;
+}
+
+/* particle */
+#particles-js{
+  height: 628.9px;
+} 
+
+/* logo app */
+.logo-calc {
+  position: absolute;
+  bottom: 1em;
+  left: 10px;
+}
+#logo_cacl {
+  width: 55px;
+}
